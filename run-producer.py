@@ -76,8 +76,8 @@ DATA_GRID_HEIGHT = "italy/it_dem_1000_32633_etrs89-utm33n.asc"
 DATA_GRID_SLOPE = "italy/it_slope_1000_32633_etrs89-utm33n.asc"
 DATA_GRID_CROPS = "italy/it_crop_1000_32633_etrs89-utm33n.asc"
 
-# TEMPLATE_PATH_LATLON = "{path_to_climate_dir}/latlon_to_rowcol.json"
-TEMPLATE_PATH_LATLON = "data/latlon_to_rowcol.json"
+TEMPLATE_PATH_LATLON = "{path_to_climate_dir}/latlon_to_rowcol.json"
+# TEMPLATE_PATH_LATLON = "data/latlon_to_rowcol.json"
 TEMPLATE_PATH_CLIMATE_CSV = "{gcm}/{rcm}/{scenario}/{ensmem}/{version}/row-{crow}/col-{ccol}.csv.gz"
 
 DEBUG_DONOT_SEND = False
